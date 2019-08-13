@@ -17,7 +17,7 @@ connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost')
 channel = connection.channel()
 
 # Declare the queue in case it does not exist
-channel.queue_declare(queue='hello')
+channel.queue_declare(queue='hello', durable=True)
 
 # Set a function to consume on that queue
 channel.basic_consume(queue='hello', on_message_callback=callback)
