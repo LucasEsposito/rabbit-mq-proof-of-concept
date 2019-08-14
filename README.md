@@ -8,4 +8,4 @@ This is a proof of concept designed only to learn rabbit-mq. It is not usable fo
 - A speakers send a message to a group.
 - Then, all listener of that group will receive the message.
 
-[[https://github.com/lucasesposito/rabbit-mq-proof-of-concept/blob/master/documentation/images/broadcast_usage_example.png]]
+![broadcast_usage_example](https://github.com/lucasesposito/rabbit-mq-proof-of-concept/blob/master/documentation/images/broadcast_usage_example.png?raw=true "Broadcast usage example")
