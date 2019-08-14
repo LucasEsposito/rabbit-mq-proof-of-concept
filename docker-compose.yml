@@ -7,6 +7,8 @@ services:
         ports:
             - 8000:8000
         command: sleep 9999
+        volumes:
+            - .:/client
         links:
             - syslog
         logging:

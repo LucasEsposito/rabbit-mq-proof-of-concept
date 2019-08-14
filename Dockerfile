@@ -1,7 +1,7 @@
 FROM python:3.7.4-buster
 RUN mkdir /client
 WORKDIR /client
-ADD . /client
+COPY . /client
 ENV PYTHONUNBUFFERED=0
 RUN pip install --upgrade pip
 
