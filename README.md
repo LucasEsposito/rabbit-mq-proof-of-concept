@@ -1,7 +1,7 @@
 # rabbit-mq-proof-of-concept
 
 ## About
-This is a proof of concept designed only to learn rabbit-mq. It is not usable for any real use case and may not be the best implementation.
+This is a proof of concept designed only to learn rabbit-mq. It works, but it was not designed for any real use case. I aimed to try out different rabbit-mq features. The implmenetation may not be the best regarding programming practices, as this is not a real program by any mean.
 
 ## How it works
 - Different listeners choose a list of groups to subscribe to.
